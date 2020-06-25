@@ -20,41 +20,41 @@ You are going to take a first look at Raspberry Pi! You should have a Raspberry 
 
 ![img1](images/pi-keyboard.png)
 
-these are used to connect a mouse and keyboard. You can also connect other components, such as a USB drive.
+* These are used to connect a mouse and keyboard. You can also connect other components, such as a USB drive.
 
 ### SD card slot — 
 
 ![img2](images/pi-sd.png)
 
-you can slot the SD card in here. This is where the operating system software and your files are stored.
+* You can slot the SD card in here. This is where the operating system software and your files are stored.
 
 ### Ethernet port — 
 
 ![img3](images/pi-ethernet.png)
 
-this is used to connect Raspberry Pi to a network with a cable. Raspberry Pi can also connect to a network via wireless LAN.
+* This is used to connect Raspberry Pi to a network with a cable. Raspberry Pi can also connect to a network via wireless LAN.
 
 ### Audio jack — 
 
 ![img4](images/pi-headphones.png)
 
-you can connect headphones or speakers here.
+* You can connect headphones or speakers here.
 
 ### HDMI port — 
 
 ![img5](images/pi-hdmi-2.png)
 
-this is where you connect the monitor (or projector) that you are using to display the output from the Raspberry Pi. If your monitor has speakers, you can also use them to hear sound.
+* This is where you connect the monitor (or projector) that you are using to display the output from the Raspberry Pi. If your monitor has speakers, you can also use them to hear sound.
 
 ### Micro USB power connector — 
 
 ![img6](images/pi-power.png)
 
-this is where you connect a power supply. You should always do this last, after you have connected all your other components.
+* This is where you connect a power supply. You should always do this last, after you have connected all your other components.
 
 ### GPIO ports — 
 
 ![img7](images/pi-sd.png)
 
-these allow you to connect electronic components such as LEDs and buttons to Raspberry Pi.
+* These allow you to connect electronic components such as LEDs and buttons to Raspberry Pi.
 
