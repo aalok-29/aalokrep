@@ -59,14 +59,23 @@ You are going to take a first look at Raspberry Pi! You should have a Raspberry 
 ## Raspberry Code to blink an LED
 
 ```
-  import time
-import RPi.GPIO as GPIO       # Import GPIO library
-GPIO.setmode(GPIO.BOARD)      # Use board pin numbering
-GPIO.setup(11, GPIO.OUT)      # Setup GPIO Pin 11 to OUT
-while True:
-	GPIO.output(11,True)  # Turn on Led
-	time.sleep(1)         # Wait for one second
-	GPIO.output(11,False) # Turn off Led
-	time.sleep(1)         # Wait for one second 
+1. import time
+
+2. import RPi.GPIO as GPIO       # Import GPIO library
+
+3. GPIO.setmode(GPIO.BOARD)      # Use board pin numbering
+
+4. GPIO.setup(11, GPIO.OUT)      # Setup GPIO Pin 11 to OUT
+
+5. while True:
+
+6. 	GPIO.output(11,True)  # Turn on Led
+
+7. 	time.sleep(1)         # Wait for one second
+
+8. 	GPIO.output(11,False) # Turn off Led
+
+9. 	time.sleep(1)         # Wait for one second
+
 ```
 
