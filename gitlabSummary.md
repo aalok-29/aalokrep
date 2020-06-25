@@ -12,6 +12,8 @@ The `working tree`, or `working directory`, consists of files that you are curre
 
 The `index`, or `staging area`, is where commits are prepared. The index compares the files in the working tree to the files in the repo. When you make a change in the working tree, the index marks the file as modified before it is committed.
 
+![img1](images/git_workflow_001.png)
+
 ## Below is the basic Git workflow:
 
 1. Modify files in the working tree.
@@ -24,7 +26,10 @@ As you can probably guess from the Git workflow, files can be in one of three st
 * Modified
 * Staged
 * Committed
+
 When a file is first modified, the change can only be found in the working tree. You must stage the changes you want to be included in your next commit. The index contains all file changes that will be committed. Once you have finished staging files, commit them with a message describing what you changed. The modified files are now safely stored in the repo.
 
 The three file states for Git: modified, staged, and committed.
 The three file states for Git: modified, staged, and commited.
+
+![img1](images/git_workflow_002.png)
