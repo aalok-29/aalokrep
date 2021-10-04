@@ -19,6 +19,18 @@ int main(void)
 		IO0PIN=IO0PIN | 0x00000001; //sets pin 0.0 as high
 		delay_ms(300);              //delay of 300 milliseconds
 		IO0PIN=IO0PIN & 0xFFFFFF00;//sets pin 0.0 as low
+		IO0PIN=IO0PIN | 0x00000001; //sets pin 0.0 as high
+		delay_ms(300);              //delay of 300 milliseconds
+		IO0PIN=IO0PIN & 0xFFFFFF00;//sets pin 0.0 as low
+		IO0PIN=IO0PIN | 0x00000001; //sets pin 0.0 as high
+		delay_ms(300);              //delay of 300 milliseconds
+		IO0PIN=IO0PIN & 0xFFFFFF00;//sets pin 0.0 as low
+		IO0PIN=IO0PIN | 0x00000001; //sets pin 0.0 as high
+		delay_ms(300);              //delay of 300 milliseconds
+		IO0PIN=IO0PIN & 0xFFFFFF00;//sets pin 0.0 as low
+		IO0PIN=IO0PIN | 0x00000001; //sets pin 0.0 as high
+		delay_ms(300);              //delay of 300 milliseconds
+		IO0PIN=IO0PIN & 0xFFFFFF00;//sets pin 0.0 as low
 		
 		IO0PIN=IO0PIN | 0x00000002;//sets pin 0.1 as high
 		delay_ms(300);             //delay of 300 milliseconds
