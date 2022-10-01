@@ -11,9 +11,9 @@ void delay_ms(uint16_t j)   // function to provide delay
 	
 }
 
-int main(void)       // main function
+int main(void)      
 {
-	IO0DIR=0x000000FF;    // initializing pins 0.0 to 0.7 as output
+	IO0DIR=0x000000FF;  
 	while(1)              //never ending loop
 	{
 		IO0PIN=IO0PIN | 0x00000001;   //sets the value of pin 0.0 to HIGH
